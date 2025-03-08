@@ -566,3 +566,376 @@
   /* katalog section styles finish */
   
 }
+
+@media only screen and (min-width: 1440px) {
+  
+  .hero::after {
+    background-image: url("./images/catbgimg.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 696px;
+    background-size: cover;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+  }
+
+  .site-header {
+    padding-block: 24px;
+  }
+  
+  .site-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-link {
+    
+  }
+  
+  .site-header__img {
+    width: 174px;
+    height: 52px;
+  }
+  
+  .hamburger-btn {
+    background-image: url("./images/hamburgericon.svg");
+    width: 24px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    display: none;
+  }
+  
+  .site-header__menu-wrap {
+    display: flex;
+  }
+  
+  .navbar {
+    
+  }
+  
+  .navbar__list {
+    
+  }
+  
+  .navbar__item {
+    
+  }
+  
+  .navbar__item:nth-child(1) {
+    border-bottom: 2px solid #fff;
+  }
+
+  .navbar__link {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  
+  /* intro section styles begin  */
+  
+  .intro {
+    background-image: none;
+    width: auto;
+  }
+  
+  .intro__wrapper {
+    padding-top: 111px;
+    padding-left: 88px;
+    width: 600px;
+  }
+  
+  .intro__title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 100% */
+    text-align: start;
+  }
+  
+  .intro__desc {
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 63px;
+  }
+  
+  .intro__bottom-wrapper {
+    position: static;
+    transform: translate(0, 0);
+  }
+  
+  .intro__img {
+    /* position: absolute; */
+    top: 20%;
+    width: 552px;
+    height: auto;
+    transform: translate(75%, -60%);
+  }
+  
+
+  /* intro section styles finish  */
+  
+  /* katalog section styles begin  */
+  
+  .katalog {
+    
+  }
+  
+  .katalog__inner {
+    
+  }
+  
+  .katalog__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-block: 0;
+    padding-left: 0;
+    gap: 80px;
+    /* justify-content: space-between; */
+  }
+  
+  .katalog__item {
+    width: 700px;
+    background-color: #f2f2f2;
+    padding-left: 52px;
+    padding-top: 47px;
+    padding-bottom: 59px;
+    padding-right: 51px;
+  }
+  
+  .katalog__item-img-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 19px;
+  }
+  
+  .katalog__img {
+    position: static;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .katalog__title {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 100% */
+    text-transform: uppercase;
+  }
+  
+  .katalog__desc {
+    width: 377px;
+    color:  #444;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    margin: 0;
+    border-bottom: 1px solid #D9D9D9;
+    margin-block: 22px;
+    padding-bottom: 23px;
+  }
+  
+  .katalog__link {
+    text-decoration-line: none;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+  }
+  
+  .katalog__link::after {
+    background-image: url("./images/icons/iconarrowright.svg");
+    width: 32px;
+    height: 10px;
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    background-size: cover;
+    background-position: 5px -1px;
+  }
+  
+  /* katalog section styles finish */
+  
+
+/* work section styles begin  */
+
+.work {
+  background-color: #fff;
+  padding-bottom: 42px;
+}
+
+.work__wrapper {
+
+}
+
+.work__title {
+  margin-top: 71px;
+  margin-bottom: 72px;
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 100% */
+}
+
+.work__list {
+  list-style-type: none;
+  margin-block: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+
+.work__item {
+  display: block;
+  align-items: center;
+}
+
+.work__img {
+
+}
+
+.work__desc {
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-left: 0;
+  margin-top: 31px;
+  width: 201px;
+}
+
+/* work section styles finish */
+
+/* premier section styles begin  */
+
+.premier {
+  background-color: #eaeaea;
+  padding-top: 27px;
+}
+
+.premier__wrapper {
+
+}
+
+.premier__title {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 111.111% */
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.premier__desc {
+  color: #444;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  margin: 0;
+}
+
+
+/* premier section styles finish  */
+
+/* site footer styles begin  */
+
+.site-footer {
+  padding-top: 63px;
+  padding-bottom: 66px;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__logo-link {
+}
+
+.footer__logo-img {
+  display: block;
+  margin-inline: auto;
+  padding-bottom: 10px;
+}
+
+.social-list {
+  list-style-type: none;
+  margin-block: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 132px;
+  column-gap: 36px;
+  margin-inline: auto;
+  padding-bottom: 24px;
+}
+
+.social-item {
+
+}
+
+.social-link {
+
+}
+
+.social-img {
+  width: 30px;
+}
+
+.footer__bottom-wrapper {
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: none;
+  column-gap: 22px;
+}
+
+.footer__span {
+
+}
+
+.footer__html-academy-link {
+
+}
+
+.footer__html-academy-img {
+
+}
+
+/* site footer styles finish */
+  
+
+}
